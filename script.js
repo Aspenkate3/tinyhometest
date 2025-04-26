@@ -1,4 +1,4 @@
-<p><i>This text is italic</i></p>
+
 
 var canvas = document
             .querySelector('canvas');
