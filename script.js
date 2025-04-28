@@ -21,7 +21,7 @@ var canvas = document
 var context = canvas
               .getContext('2d');
 
-var spriteSheetURL = 'https://imgur.com/a/MjnOHcE';
+var spriteSheetURL = 'imgur.com/min/embed.js';
 var image = new Image();
 image.src = spriteSheetURL;
 image.crossOrigin = true;
