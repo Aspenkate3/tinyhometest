@@ -1,5 +1,5 @@
-const SPRITE_WIDTH = 13;
-const SPRITE_HEIGHT = 14;
+const SPRITE_WIDTH = 200;
+const SPRITE_HEIGHT = 200;
 const BORDER_WIDTH = 1;
 const SPACING_WIDTH = 1;
 
