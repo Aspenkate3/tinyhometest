@@ -21,7 +21,7 @@ var canvas = document
 var context = canvas
               .getContext('2d');
 
-var spriteSheetURL = 'https://imgur.com/a/MjnOHcE';
+var spriteSheetURL = "https://www.w3schools.com/images/w3schools_green.jpg";
 var image = new Image();
 image.src = spriteSheetURL;
 image.crossOrigin = true;
