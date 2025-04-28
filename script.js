@@ -40,8 +40,8 @@ image.onload = function() {
         1,
         SPRITE_WIDTH,
         SPRITE_HEIGHT,
-        0,
-        0,
+        1,
+        1,
         140,
         90
     );
