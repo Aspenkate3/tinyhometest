@@ -36,8 +36,8 @@ image.onload = function() {
         // spritePositionToImagePosition
         // to start at an offset
         // into the spritesheet!
-        position.x,
-        position.y,
+        1,
+        1,
         SPRITE_WIDTH,
         SPRITE_HEIGHT,
         0,
