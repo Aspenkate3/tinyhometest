@@ -42,7 +42,7 @@ image.onload = function() {
         SPRITE_HEIGHT,
         1,
         1,
-        140,
-        90
+        30,
+        30
     );
 };
