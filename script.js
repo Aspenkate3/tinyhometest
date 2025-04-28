@@ -1,5 +1,5 @@
-const SPRITE_WIDTH = 30;
-const SPRITE_HEIGHT = 30;
+const SPRITE_WIDTH = 13;
+const SPRITE_HEIGHT = 14;
 const BORDER_WIDTH = 1;
 const SPACING_WIDTH = 1;
 
@@ -21,7 +21,7 @@ var canvas = document
 var context = canvas
               .getContext('2d');
 
-var spriteSheetURL = "https://codehs.com/uploads/e4cfb06e001bd92cf41139928e88819a";
+var spriteSheetURL = 'https://codehs.com/uploads/e4cfb06e001bd92cf41139928e88819a';
 var image = new Image();
 image.src = spriteSheetURL;
 image.crossOrigin = true;
@@ -36,13 +36,13 @@ image.onload = function() {
         // spritePositionToImagePosition
         // to start at an offset
         // into the spritesheet!
-        1,
-        1,
+        position.x,
+        position.y,
         SPRITE_WIDTH,
         SPRITE_HEIGHT,
-        1,
-        1,
-        30,
-        30
+        0,
+        0,
+        SPRITE_WIDTH,
+        SPRITE_HEIGHT
     );
 };
