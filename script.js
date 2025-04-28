@@ -1,5 +1,5 @@
-const SPRITE_WIDTH = 200;
-const SPRITE_HEIGHT = 200;
+const SPRITE_WIDTH = 30;
+const SPRITE_HEIGHT = 30;
 const BORDER_WIDTH = 1;
 const SPACING_WIDTH = 1;
 
@@ -21,7 +21,7 @@ var canvas = document
 var context = canvas
               .getContext('2d');
 
-var spriteSheetURL = "https://www.w3schools.com/images/w3schools_green.jpg";
+var spriteSheetURL = "https://codehs.com/uploads/e4cfb06e001bd92cf41139928e88819a";
 var image = new Image();
 image.src = spriteSheetURL;
 image.crossOrigin = true;
