@@ -21,7 +21,7 @@ var canvas = document
 var context = canvas
               .getContext('2d');
 
-var spriteSheetURL = 'https://codehs.com/uploads/e4cfb06e001bd92cf41139928e88819a';
+var spriteSheetURL = "https://i.ibb.co/kgw2qBDB/2025-04-28-13n-Kleki.png";
 var image = new Image();
 image.src = spriteSheetURL;
 image.crossOrigin = true;
@@ -29,20 +29,20 @@ image.crossOrigin = true;
 var position = spritePositionToImagePosition(1, 0);
 
 image.onload = function() {
-    context.drawImage(
+    drawtile(450,9);
+};
+
+function drawtile(x,y,type){
+  context.drawImage(
         image,
-        // LOOK!
-        // we use the position from 
-        // spritePositionToImagePosition
-        // to start at an offset
-        // into the spritesheet!
-        position.x,
-        position.y,
+        0,
+        0,
         SPRITE_WIDTH,
         SPRITE_HEIGHT,
-        0,
-        0,
-        SPRITE_WIDTH,
-        SPRITE_HEIGHT
+        x,
+        y,
+        SPRITE_WIDTH*5,
+        SPRITE_HEIGHT*5
     );
-};
+  
+}
